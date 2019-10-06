@@ -14,7 +14,7 @@ class ProductManager extends StatefulWidget {
 }
 
 class _ProductManager extends State<ProductManager> {
-  List<String> _products = ['Food Tester'];
+  List<String> _products = [];
 
   @override
   void initState() {
