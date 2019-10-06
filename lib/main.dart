@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text('Veer your first app! :D'),
           ),
-          body: ProductManager()),
+          body: ProductManager('Food Tester')),
     );
   }
 }
